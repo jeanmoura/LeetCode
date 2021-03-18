@@ -31,3 +31,4 @@ class Solution {
     
     }
 }
+ //T O(n) S O(n)

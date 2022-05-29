@@ -6,6 +6,7 @@ A zero-based permutation nums is an array of distinct integers
 from 0 to nums.length - 1 (inclusive).
 */
 
+// Space complexity O(n) ad Time Complexity O(n);
 
 public class Solution {
     public int[] buildArray(int[] nums) {

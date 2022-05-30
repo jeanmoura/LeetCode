@@ -1,5 +1,7 @@
 // Estrategy of two pointers (left and right), Time Complexity O(n), Space Complexity O(1)
 
+//https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+
 class Solution {
     public int maxProfit(int[] prices) {
         //Initializing the variables

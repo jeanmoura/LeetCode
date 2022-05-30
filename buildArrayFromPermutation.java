@@ -8,6 +8,8 @@ from 0 to nums.length - 1 (inclusive).
 
 // Space complexity O(n) ad Time Complexity O(n);
 
+//https://leetcode.com/problems/build-array-from-permutation/
+
 public class Solution {
     public int[] buildArray(int[] nums) {
         int n = nums.length;

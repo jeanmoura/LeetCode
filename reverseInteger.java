@@ -4,10 +4,9 @@ If reversing x causes the value to go outside the signed 32-bit integer range [-
 return 0.
 
 Assume the environment does not allow you to store 64-bit integers (signed or unsigned).
-
-https://leetcode.com/problems/add-two-integers/
 */
 
+//https://leetcode.com/problems/reverse-integer/
 
 public class Solution {
     class Solution {

@@ -7,11 +7,11 @@ class Solution {
         return dfs(arr, start, 0);
     }
     
-    public boolean dfs(int[] arr, int start, int tot){
+    public boolean dfs(int[] arr, int start, int count){
         if(start < 0 || start >= arr.length) return false;
         if(arr[start] == 0)return true;
-        if(tot >= arr.length) return false;
-        return (dfs(arr, start + arr[start], tot + 1)) || (dfs(arr, start - arr[start], tot + 1)) ;
+        if(count >= arr.length) return false;
+        return (dfs(arr, start + arr[start], count + 1)) || (dfs(arr, start - arr[start], count + 1)) ;
 
     }
 }

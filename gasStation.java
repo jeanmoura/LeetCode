@@ -1,6 +1,6 @@
 //https://leetcode.com/problems/gas-station/
 
-// Time Complexity O(n), Space Complexity O(n
+// Time Complexity O(n), Space Complexity O(n)
 
 //If at any cost, the total sum of fuel < total sum of cost, then answer is not possible.
 //Now, traverse, using 0 as the starting index. Now, add gas[i]-cost[i] into a curr_fuel, for each iteration. 
